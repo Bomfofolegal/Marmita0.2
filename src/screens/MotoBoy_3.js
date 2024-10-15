@@ -291,10 +291,10 @@ export default function MotoBoy_1({ navigation }) {
 
       const marmitas = [
         { label: '0', value: 0 },
-        { label: 'P', value: 16 },
-        { label: 'M', value: 18 },
-        { label: 'G', value: 20 },
-        { label: 'G1', value: 26 },
+        { label: 'P', value: 17 },
+        { label: 'M', value: 19 },
+        { label: 'G', value: 21 },
+        { label: 'G1', value: 27 },
     ];
 
     const handleChange = (name, value) => {

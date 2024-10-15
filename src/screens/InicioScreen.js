@@ -264,11 +264,11 @@ export default function HomeScreen({ navigation }) {
 };
 
 const marmitas = [
-    { label: '0', value: 0 },
-    { label: 'P', value: 16 },
-    { label: 'M', value: 18 },
-    { label: 'G', value: 20 },
-    { label: 'G1', value: 26 },
+  { label: '0', value: 0 },
+  { label: 'P', value: 17 },
+  { label: 'M', value: 19 },
+  { label: 'G', value: 21 },
+  { label: 'G1', value: 27 },
 ];
 
   const handleTaxaChange = (value) => {

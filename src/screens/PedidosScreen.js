@@ -197,19 +197,19 @@ const getCollectionName = async (docId) => {
         newValue = marmita1;
       }
     
-      if (marmita1 === 16 && newValue < 16) newValue = 16;
-      else if (marmita1 === 18 && newValue < 18) newValue = 18;
-      else if (marmita1 === 20 && newValue < 20) newValue = 20;
-      else if (marmita1 === 26 && newValue < 26) newValue = 26;
+      if (marmita1 === 17 && newValue < 17) newValue = 17;
+      else if (marmita1 === 19 && newValue < 19) newValue = 19;
+      else if (marmita1 === 21 && newValue < 21) newValue = 21;
+      else if (marmita1 === 27 && newValue < 27) newValue = 27;
     
       setOrder({ ...order, valor: newValue.toString() });
     };  
 
     const marmitas = [
-      { label: 'P', value: 16 },
-      { label: 'M', value: 18 },
-      { label: 'G', value: 20 },
-      { label: 'G1', value: 26 },
+      { label: 'P', value: 17 },
+      { label: 'M', value: 19 },
+      { label: 'G', value: 21 },
+      { label: 'G1', value: 27 },
     ];
 
     return (

@@ -22,7 +22,7 @@
     "@react-navigation/native-stack": "^6.9.26",
     "@react-navigation/stack": "^6.3.29",
     "cors": "^2.8.5",
-    "expo": "~51.0.8",
+    "expo": "^45.0.8",
     "expo-print": "~13.0.1",
     "expo-status-bar": "~1.12.1",
     "express": "^4.19.2",
